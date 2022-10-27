@@ -1,0 +1,40 @@
+*{
+    margin: 0 !important;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.container video{
+    height: 100%;
+    width: 100%;
+    background-color: black; /* I added bg color here so you can see how the video cover the page */
+}
+
+#text1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vh;
+}
+#text2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5vh;
+}
