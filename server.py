@@ -2,7 +2,8 @@ import flask, os
 
 app = flask.Flask(__name__)
 
-port=1234
+port = 5000
+
 host="0.0.0.0"
 
 @app.route('/')
@@ -17,4 +18,4 @@ def add_to_tally():
         f.write(str(tally + 1))
     return flask.send_file('static/media/tally.txt')
 
-app.run(host=host, port=port, debug=True)
+app.run(host=host, port=port)
